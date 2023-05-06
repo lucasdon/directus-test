@@ -28,5 +28,6 @@ module.exports = function (env) {
         EMAIL_SENDGRID_API_KEY: env.EMAIL_SENDGRID_API_KEY,
         
         CORS_ENABLED: true,
+        CORS_ORIGIN: "localhost",
     };
 };
