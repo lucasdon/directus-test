@@ -26,5 +26,7 @@ module.exports = function (env) {
         EMAIL_VERIFY_SETUP: env.EMAIL_VERIFY_SETUP,
         EMAIL_TRANSPORT: env.EMAIL_TRANSPORT,
         EMAIL_SENDGRID_API_KEY: env.EMAIL_SENDGRID_API_KEY,
+        
+        CORS_ENABLED: true,
     };
 };
