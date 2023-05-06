@@ -21,5 +21,10 @@ module.exports = function (env) {
         DB_DATABASE: env.PGDATABASE,
         DB_USER: env.PGUSER,
         DB_PASSWORD: env.PGPASSWORD,
+
+        EMAIL_FROM: env.EMAIL_FROM,
+        EMAIL_VERIFY_SETUP: env.EMAIL_VERIFY_SETUP,
+        EMAIL_TRANSPORT: env.EMAIL_TRANSPORT,
+        EMAIL_SENDGRID_API_KEY: env.EMAIL_SENDGRID_API_KEY,
     };
 };
